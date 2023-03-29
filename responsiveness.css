@@ -1,46 +1,20 @@
-
-@media only screen and (max-height: 992px) {
+@media only screen and (width < 600px) { 
+ body {
+        background-color: yellow;
+    }
+}
+@media only screen and (width >= 600px) {
     body {
         background-color: red;
     }
-    #small {
-        display: none;
-    }
-    #medium {
-        display: none;
-    }
-    #large {
-        display: contents;
-        font-size: large;
-    }
 }
-@media only screen and (max-height:768px) {
+@media only screen and (width >=768px) {
     body {
         background-color: green;
     }
-    #small {
-        display: none;
-    }
-    #large {
-        display: none;
-    }
-    #medium {
-        display: contents;
-        font-size: medium;
-    }
 }
-@media only screen and (max-height: 480px) {
+@media only screen and (width >= 992px) {
     body {
         background-color: blue;
-    }
-    #medium{
-        display: none;
-    }
-    #large{
-        display: none;
-    }
-    #small {
-        display: contents;
-        font-size: small;
     }
 }
