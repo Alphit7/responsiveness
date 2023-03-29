@@ -1,0 +1,46 @@
+
+@media only screen and (max-height: 992px) {
+    body {
+        background-color: red;
+    }
+    #small {
+        display: none;
+    }
+    #medium {
+        display: none;
+    }
+    #large {
+        display: contents;
+        font-size: large;
+    }
+}
+@media only screen and (max-height:768px) {
+    body {
+        background-color: green;
+    }
+    #small {
+        display: none;
+    }
+    #large {
+        display: none;
+    }
+    #medium {
+        display: contents;
+        font-size: medium;
+    }
+}
+@media only screen and (max-height: 480px) {
+    body {
+        background-color: blue;
+    }
+    #medium{
+        display: none;
+    }
+    #large{
+        display: none;
+    }
+    #small {
+        display: contents;
+        font-size: small;
+    }
+}
